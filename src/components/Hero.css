@@ -1,0 +1,57 @@
+.Text {
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+    left: 100px;
+}
+
+.Column {
+    position: absolute;
+
+    top: 40px;
+}
+
+@media screen and (max-width: 639px) {
+    .Column {
+        position: absolute;
+    
+        top: 105px;
+        left: 50px;
+    }
+    .Text {
+        position: absolute;
+        top: 150px;
+        z-index: 1;
+        left: 90px;
+    }
+  }
+  
+  @media screen and (max-width: 449px) {
+    .Column {
+        position: absolute;
+    
+        top: 105px;
+        left: 30px;
+    }
+    .Text {
+        position: absolute;
+        top: 150px;
+        z-index: 1;
+        left: 80px;
+    }
+  }
+
+  @media screen and (max-width: 374px) {
+    .Column {
+        position: absolute;
+    
+        top: 105px;
+        left: 20px;
+    }
+    .Text {
+        position: absolute;
+        top: 150px;
+        z-index: 1;
+        left: 60px;
+    }
+  }

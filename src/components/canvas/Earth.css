@@ -1,0 +1,72 @@
+.Earth {
+    position: absolute;
+    right: 0.5%;
+
+    display: block;
+    width: 100vh;
+    height: 100vh;
+}
+
+@media screen and (max-width: 1304px) {
+    .Earth {
+        position: absolute;
+        top: 3%;
+        right: 0.5%;
+    
+        display: block;
+        width: 90vh;
+        height: 90vh;
+    }
+  }
+  
+  @media screen and (max-width: 1148px) {
+    .Earth {
+        position: absolute;
+        top: 6%;
+        right: 0.5%;
+    
+        display: block;
+        width: 80vh;
+        height: 80vh;
+    }
+  }
+  
+  @media screen and (max-width: 1056px) {
+    .Earth {
+        position: absolute;
+        top: 9%;
+        right: 0.5%;
+    
+        display: block;
+        width: 70vh;
+        height: 70vh;
+    }
+  }
+  
+  @media screen and (max-width: 946px) {
+    .Earth {
+        position: absolute;
+        z-index: 0;
+    
+        display: block;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        height: 70vh;
+    }
+  }
+  
+  @media screen and (max-width: 449px) {
+    .Earth {
+        position: absolute;
+        z-index: 0;
+        top: 15%;
+    
+        display: block;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        height: 55vh;
+    }
+  }
+  
